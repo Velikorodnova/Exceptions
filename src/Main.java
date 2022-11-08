@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        boolean testData = Data.dataValidation("fgfgfg", "gkhjfhjf", "gkhjfhjf");
+        if (testData) {
+            System.out.println("Логин и пароль верные");
+        } else {
+            System.out.println("Логин и пароль неверные");
+        }
     }
 }
